@@ -94,11 +94,34 @@ examenD_iwebd/
 
 ## Evidencias
 
+### Registro de un nuevo paciente
+Se llena el formulario con los datos del paciente y se presiona "Registrar". El sistema valida cada campo en tiempo real antes de guardar.
+
 ![Registro de paciente](screenshots/registro.png)
+
+### Editar paciente - antes de modificar
+Al presionar "Editar" en la tabla, los datos del paciente se cargan en el formulario. El boton "Actualizar" permanece deshabilitado hasta que se realice un cambio.
+
 ![Editar paciente - antes de modificar](screenshots/editar%20antes%20de%20modificar.png)
+
+### Editar paciente - despues de modificar
+Una vez modificados los datos, se habilita el boton "Actualizar" y al presionarlo se guardan los cambios. Se muestra una notificacion de confirmacion.
+
 ![Editar paciente - despues de modificar](screenshots/despues%20de%20editar.png)
+
+### Confirmacion de eliminacion
+Al presionar "Eliminar", se muestra un modal personalizado pidiendo confirmacion antes de proceder con la eliminacion del registro.
+
 ![Confirmacion de eliminacion](screenshots/conf%20eliminar.png)
+
+### Paciente eliminado
+Despues de confirmar la eliminacion, el registro se remueve de la tabla y se muestra una notificacion de exito.
+
 ![Paciente eliminado](screenshots/eliminado.png)
+
+### Base de datos SQLite
+Vista de la base de datos SQLite usando la extension SQLite Viewer de Florian Klampfer en VS Code, donde se pueden ver los registros almacenados.
+
 ![Base de datos SQLite](screenshots/db.png)
 
 ## Uso de IA
